@@ -10,7 +10,7 @@ if game.PlaceId == 2753915549 or game.PlaceId == 4442272183 or game.PlaceId == 7
   game.StarterGui:SetCore("SendNotification", {
       Icon = "rbxassetid://16917864297";
       Title = "MadoHub", 
-      Text = "Loading Ui... (Won't take too much)"
+      Text = "Loading Ui... (Will take only 10 seconds to load.)"
   })
   
   wait(10)
@@ -2271,7 +2271,7 @@ if game.PlaceId == 2753915549 or game.PlaceId == 4442272183 or game.PlaceId == 7
   
      local set = sxhub:AddTab("Setting","7040347038")
   set:AddLabel("Setting")
-      set:AddButton("Credit By Sintax#4976",function()
+      set:AddButton("Made By Mado (itsmado on discord) enjoy.",function()
   end)
       set:AddButton("Copy Discord Link",function()
       setclipboard("https://discord.com/invite/FrhWXbnmX8")
